@@ -1,0 +1,18 @@
+{
+  "GET:/": "api docs",
+
+  "POST:api/signup": "signup",
+  "POST:api/signin": "signin",
+  "GET:api/signout": "signout",
+
+  "GET:api/users": "get all users",
+  "GET:api/users/:userId": "get user by id",
+  "PUT:api/users/:userId": "update user by id",
+  "DELETE:api/users/:userId": "delete user by id",
+
+  "GET:api/posts": "get all posts",
+  "POST:api/users/:userId/posts": "create new post",
+  "GET:api/users/:userId/posts": "get posts by user",
+  "DELETE:api/posts/:postId": "delete post",
+  "PUT:api/posts/:postId": "update post"
+}
